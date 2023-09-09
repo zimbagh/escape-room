@@ -83,6 +83,6 @@ function zimmer4(){
     var currentAlert = document.getElementById("alert");
     setTimeout(() => {
       currentAlert.remove();
-      window.location.assign("/rooms/room-0.html");
+      window.location.assign("room-0.html");
     }, 10000);
 }
