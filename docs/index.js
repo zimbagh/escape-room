@@ -2,5 +2,5 @@ function startCountdown() {
   initCoins();
   setEndTime();
   initRoomStatus();
-  window.location.assign("/home.html");
+  window.location.assign("home.html");
 }
