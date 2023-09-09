@@ -15,7 +15,7 @@ winloginform.addEventListener("submit", (e) => {
     var currentAlert = document.getElementById("alert");
     setTimeout(() => {
       currentAlert.remove();
-      window.location.assign("/home.html");
+      window.location.assign("../home.html");
     }, 10000);
     return;
   }
@@ -37,7 +37,7 @@ winloginform.addEventListener("submit", (e) => {
   } else if (username.value === "tom" && password.value === "zufall123") {
     // Change background image
     document.getElementById("laptop").style.backgroundImage =
-      "url(/rooms/room-2/desktop.png)";
+      "url(room-2/desktop.png)";
     // Remove login form
     username.style.display = "none";
     password.style.display = "none";
@@ -57,7 +57,7 @@ winloginform.addEventListener("submit", (e) => {
     var currentAlert = document.getElementById("alert");
     setTimeout(() => {
       currentAlert.remove();
-      window.location.assign("/home.html");
+      window.location.assign("../home.html");
     }, 10000);
 
   // Wrong credentials were inserted
