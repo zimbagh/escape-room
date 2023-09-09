@@ -101,7 +101,7 @@ physikform.addEventListener("submit", (e) => {
     var currentAlert = document.getElementById("alert");
     setTimeout(() => {
       currentAlert.remove();
-      indow.location.assign("../home.html");
+      window.location.assign("../home.html");
     }, 10000);
     return;
   }
@@ -119,7 +119,7 @@ physikform.addEventListener("submit", (e) => {
     var currentAlert = document.getElementById("alert");
     setTimeout(() => {
       currentAlert.remove();
-      indow.location.assign("../home.html");
+      window.location.assign("../home.html");
     }, 10000);
   } else {
     var oldAlert = document.getElementById("alert");
